@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #fff7e8;
+            font-family: 'Poppins', sans-serif;
+            color: #4a3325;
+            padding: 35px;
+        }
+
+        .home {
+            max-width: 950px;
+            margin: auto;
+        }
+
+        /* HERO */
+        .hero {
+            background: #ffb347;
+            border-radius: 28px;
+            padding: 45px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(170, 100, 20, 0.12);
+        }
+
+        .hero::before {
+            content: "✦";
+            position: absolute;
+            left: 35px;
+            top: 25px;
+            font-size: 35px;
+            color: rgba(255,255,255,0.7);
+        }
+
+        .hero::after {
+            content: "♡";
+            position: absolute;
+            right: 40px;
+            bottom: 20px;
+            font-size: 45px;
+            color: rgba(255,255,255,0.7);
+        }
+
+        .emoji {
+            font-size: 48px;
+            margin-bottom: 5px;
+        }
+
+        .hero h1 {
+            font-family: 'Baloo 2', cursive;
+            font-size: 55px;
+            color: white;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+
+        .hero h2 {
+            font-family: 'Baloo 2', cursive;
+            font-size: 22px;
+            color: white;
+            font-weight: 500;
+        }
+
+        .hero p {
+            color: white;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        /* WELCOME */
+        .welcome {
+            background: white;
+            border-radius: 25px;
+            padding: 35px;
+            margin-top: 25px;
+            text-align: center;
+            border: 2px dashed #ffc76b;
+        }
+
+        .welcome h2 {
+            font-family: 'Baloo 2', cursive;
+            color: #d87818;
+            font-size: 29px;
+            margin-bottom: 12px;
+        }
+
+        .welcome p {
+            font-size: 14px;
+            line-height: 1.8;
+            color: #675346;
+        }
+
+        /* SUPPORT */
+        .support {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #ffe5b8;
+            border-radius: 22px;
+            padding: 27px;
+            text-align: center;
+        }
+
+        .card .icon {
+            font-size: 35px;
+        }
+
+        .card h3 {
+            font-family: 'Baloo 2', cursive;
+            color: #c96712;
+            font-size: 22px;
+            margin: 5px 0 8px;
+        }
+
+        .card p {
+            font-size: 13px;
+            line-height: 1.7;
+            color: #654b39;
+        }
+
+        /* CLOSING */
+        .closing {
+            background: #292929;
+            color: white;
+            border-radius: 25px;
+            margin-top: 20px;
+            padding: 32px 25px;
+            text-align: center;
+        }
+
+        .closing h2 {
+            font-family: 'Baloo 2', cursive;
+            color: #ffb347;
+            font-size: 27px;
+        }
+
+        .closing p {
+            font-size: 13px;
+            line-height: 1.7;
+            margin-top: 7px;
+        }
+
+        .stars {
+            margin-top: 12px;
+            font-size: 23px;
+            letter-spacing: 3px;
+            color: #ffb347;
+        }
+
+        @media (max-width: 650px) {
+            body {
+                padding: 18px;
+            }
+
+            .hero h1 {
+                font-size: 43px;
+            }
+
+            .support {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="home">
+
+    <!-- HERO -->
+    <div class="hero">
+        <div class="emoji"></div>
+
+        <h1>Hi, Cireng Lovers!</h1>
+
+        <h2>a little snack, a little support ♡</h2>
+
+        <p>
+            Gurih • chewy • made with love by LSS ✨
+        </p>
+    </div>
+
+
+    <!-- WELCOME -->
+    <div class="welcome">
+
+        <h2>Welcome to Cireng LSS! 🫶🏻</h2>
+
+        <p>
+            Cireng LSS merupakan salah satu usaha yang dijalankan
+            oleh anak-anak LSS saat jam istirahat 1 & 2.
+            Di sela-sela kegiatan sekolah, kami hadir dengan cireng
+            yang <b>gurih, chewy</b>, dan pastinya cocok buat nemenin
+            waktu istirahat kamu!
+        </p>
+
+    </div>
+
+
+    <!-- SUPPORT -->
+    <div class="support">
+
+        <div class="card">
+
+            <div class="icon">💫</div>
+
+            <h3>More than a snack!</h3>
+
+            <p>
+                But there’s more behind every bite!
+                Hasil penjualan cireng akan dikumpulkan menjadi
+                dana LSS untuk mendukung berbagai proker dan
+                kegiatan LSS.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">🎭</div>
+
+            <h3>Support our project!</h3>
+
+            <p>
+                So, every cireng you buy means a little support
+                for our next project. Jajan enak sambil support LSS?
+                <b>Why not? 🫶🏻</b>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- CLOSING -->
+    <div class="closing">
+
+        <h2>Enjoy your cireng! </h2>
+
+        <p>
+            Selamat menikmati dan jangan lupa kasih
+            rating terbaik untuk kami ♡
+        </p>
+
+        <div class="stars">
+            ★ ★ ★ ★ ★
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
