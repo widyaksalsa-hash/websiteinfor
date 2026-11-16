@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Produk Cireng LSS</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff5e2;
+    color: #65452e;
+}
+
+.product-container {
+    max-width: 850px;
+    margin: auto;
+    padding: 25px 18px;
+}
+
+.product-header {
+    text-align: center;
+    background: #ffb347;
+    padding: 30px 15px;
+    border-radius: 22px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.product-header h1 {
+    font-size: 27px;
+    margin-bottom: 8px;
+}
+
+.product-header p {
+    font-size: 13px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 17px;
+}
+
+.product-card {
+    background: white;
+    border: 1px solid #ffd49c;
+    border-radius: 18px;
+    padding: 20px 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 18px rgba(190, 120, 30, 0.15);
+}
+
+.product-icon {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 16px;
+    color: #d87918;
+    margin-bottom: 8px;
+}
+
+.price {
+    color: #754c29;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.order-btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #ffae42;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.order-btn:hover {
+    background: #e98b21;
+}
+
+.product-footer {
+    text-align: center;
+    background: #ffe6bd;
+    border-radius: 18px;
+    padding: 20px;
+    margin-top: 22px;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+@media (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .product-card {
+        padding: 15px 8px;
+    }
+
+    .product-card h3 {
+        font-size: 13px;
+    }
+}
+.all-products-image {
+    width: 100%;
+    margin-bottom: 22px;
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+.all-products-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    border-radius: 18px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="product-container">
+
+    <div class="product-header">
+        <h1>Our Cireng Menu ♡</h1>
+        <p>Fresh, chewy, and made with love by LSS!</p>
+    </div>
+
+    <div class="all-products-image">
+        <img src="cirengrasa.png" alt="Cireng Isi LSS - Ayam Original, Ayam Rendang, Keju, dan Jando">
+    </div>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <div class="product-icon">🥟</div>
+            <h3>Ayam Pedas</h3>
+            <div class="price">Rp5.000</div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScJHlrBas2WiVibx0_DiXm87xW9elTskKX0vT2HQAd4Fj1vMQ/viewform?usp=dialog" class="order-btn" target="_blank">
+                Order Now ♡
+            </a>
+        </div>
+
+        <div class="product-card">
+            <div class="product-icon">🥟</div>
+            <h3>Ayam Original</h3>
+            <div class="price">Rp5.000</div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScJHlrBas2WiVibx0_DiXm87xW9elTskKX0vT2HQAd4Fj1vMQ/viewform?usp=dialog" class="order-btn" target="_blank">
+                Order Now ♡
+            </a>
+        </div>
+
+        <div class="product-card">
+            <div class="product-icon">🥟</div>
+            <h3>Rendang</h3>
+            <div class="price">Rp5.000</div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScJHlrBas2WiVibx0_DiXm87xW9elTskKX0vT2HQAd4Fj1vMQ/viewform?usp=dialog" class="order-btn" target="_blank">
+                Order Now ♡
+            </a>
+        </div>
+
+        <div class="product-card">
+            <div class="product-icon">🥟</div>
+            <h3>Keju</h3>
+            <div class="price">Rp5.000</div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScJHlrBas2WiVibx0_DiXm87xW9elTskKX0vT2HQAd4Fj1vMQ/viewform?usp=dialog" class="order-btn" target="_blank">
+                Order Now ♡
+            </a>
+        </div>
+
+        <div class="product-card">
+            <div class="product-icon">🥟</div>
+            <h3>Baso Pedas</h3>
+            <div class="price">Rp5.000</div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScJHlrBas2WiVibx0_DiXm87xW9elTskKX0vT2HQAd4Fj1vMQ/viewform?usp=dialog" class="order-btn" target="_blank">
+                Order Now ♡
+            </a>
+        </div>
+
+        <div class="product-card">
+            <div class="product-icon">🥟</div>
+            <h3>Jando</h3>
+            <div class="price">Rp5.000</div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScJHlrBas2WiVibx0_DiXm87xW9elTskKX0vT2HQAd4Fj1vMQ/viewform?usp=dialog" class="order-btn" target="_blank">
+                Order Now ♡
+            </a>
+        </div>
+
+    </div>
+</div>
+    </div>
+
+    <div class="product-footer">
+        <b>One bite, lots of love! 🧡</b>
+        <p>Terima kasih sudah mendukung DANUS LSS.</p>
+        <p>Setiap pembelian ikut mendukung perjalanan dan kegiatan LSS!</p>
+    </div>
+
+</div>
+
+</body>
+</html>
